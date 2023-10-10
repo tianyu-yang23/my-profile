@@ -1,0 +1,185 @@
+body {
+	background-color: black;
+	color: black;
+	font-family: Times, serif;
+	font-size: 16px;
+	line-height: 1.6;
+	letter-spacing: 2px;
+	font-weight: bold;
+	a{
+		text-decoration: none;
+	}
+}
+
+/* Custome design with class */
+
+.img-circle {
+	width: 180px; 
+	text-align: center;
+	margin-top: -20px;
+	border-radius: 10px;
+}
+
+.container {
+	width: 800px;
+	margin: 70px auto;
+	padding: 30px;
+	text-align: center;
+}
+
+.video {
+	width: 600px;
+	border-radius: 4px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-width: 5px;
+	border-color: black;
+}
+
+	.video:hover{
+		width: 610px;
+	}
+
+.WP {
+	width: 600px;
+	border-radius: 4px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-width: 5px;
+	border-color: black;
+}
+
+@media (max-width: 900px) {
+	.container {
+		width: 600px
+	}
+
+	.video {
+		width: 450px;
+		box-shadow: 0px 10 px 30px rgba(0,0,0,0.1);
+		border-radius: 4px;
+	}
+
+	.WP {
+	width: 450px;
+	box-shadow: 0px 10 px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	}	
+
+	.video:hover{
+		width: 460px;
+	}
+}
+
+@media (max-width: 600px) {
+	.container {
+		width: 400px
+	}
+
+	.video {
+		width: 300px;
+		box-shadow: 0px 10 px 30px rgba(0,0,0,0.1);
+		border-radius: 4px;
+	}
+
+	.WP {
+	width: 300px;
+	box-shadow: 0px 10 px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	}
+
+	.video:hover{
+		width: 310px;
+	}	
+}
+
+.card-white {
+	background-color: rgb(196, 196, 196);
+	font-size: 27px;
+	padding: 30px;
+	padding-bottom: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+	.card-white p {
+		
+		font-size: 20px;
+		padding: 20px;
+		border-radius: 4px;
+		margin-top: 0px;
+		margin-bottom: 5px;
+		text-align: center;
+	}
+
+	.card-white h1 {
+		margin-top: 15px;
+	}
+
+	.card-white h2 {
+		margin-top: 10px;
+		margin-bottom: -10px;
+	}
+
+.btn-grey{
+	background-color: black;
+	color: white;
+	padding: 12px;
+	margin-top: 30px;
+	border-radius: 4px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+	.btn-grey:hover{
+		background-color: grey;
+	}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	margin-bottom: 5px;
+}
+
+	.list-inline li {
+		display: inline;
+		padding: 10px;
+		font-size: 40px;
+	}
+
+	.list-inline i:hover {
+		font-size: 50px;
+	}
+
+/* Custome design with id */
+
+#introduction h1 {
+	font-size: 70px;
+	font-family: 'Antonio', sans-serif;
+	font-weight: bold;
+	letter-spacing: 2px;	
+}
+
+#introduction a {
+	font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
